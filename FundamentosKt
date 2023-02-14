@@ -120,6 +120,38 @@ fun main() {
 */
 //------------------------------------------------------------------------------------------------------------
 
-
+//Desafio Calculadora: fazer um programa que simule uma calculadora
+    //Deve ter pelo menos 2 variáveis de tipo Int e pelo menos 4 println's
+    //cada um obtendo um calculo diferente(adiçao, subtração, multiplicação
+    //e divisão) que relacionam as duas variáveis neste cálculo  :)
+    //
+    //Com interface BONITA!!
+    //
+    //o primeiro que conseguir... chocolate
+    //
+    //iremos corrigir
+    //
+    var n1 = 2
+    var n2 = 4
+    
+    println("☺ ******************---------******************☺")
+    println("**                                            **")
+    println("**                                            **")
+    println("**             Minha Calculadora!!            **")
+    println("**                                            **")
+    println("** Adição entre $n1 e $n2                         **")
+    println("** O resultado da adição é: " + (n1 + n2))
+    println("**                                            **")
+    println("** Subtração entre $n1 e $n2                      **")
+    println("** O resultado da subtração é: " + (n1 - n2))
+    println("**                                            **")
+    println("** Multipliocação entre $n1 e $n2                 **")
+    println("** O resultado da multiplicação é: " + (n1 * n2))
+    println("**                                            **")
+    println("** Divisão entre $n1 e $n2                        **")
+    println("** O resultado da divisão é: " + (n1 / n2))
+    println("**                                            **")
+    println("**                                            **")
+    println("**••••••••••••••••••••••••••••••••••••••••••••**")
 
 
