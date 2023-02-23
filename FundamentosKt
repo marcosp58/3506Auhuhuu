@@ -223,3 +223,55 @@ fun main() {
     
     
 }
+//------------------------------------------------------------------------------------------------
+
+fun main() {
+    
+    //Operadores Lógicos
+    //
+    //são usados quando queremos comparar mais de uma coisa na mesma condição
+    //
+    // && -> e (shift + 7)
+    // || -> ou (shift + barra invertida)
+    // 
+    // TABELA VERDADE (com E e OU)
+    // 
+    // && - a determinada ação só acontecerá se e somente se todas as
+    //  condições forem verdadeiras
+    // 
+    // VV -> verdadeiro
+    // VF -> falso
+    // FV -> falso
+    // FF -> falso
+    // 
+    // || - a determinada ação será executada se pelo menos uma das 
+    // condições forem verdadeiras
+    // 
+    // VV -> verdadeiro
+    // VF -> verdadeiro
+    // FV -> verdadeiro
+    // FF -> falso
+    // 
+    // 
+    // Show do Péricles
+    /*
+    var idade = 13
+    var acompanhadoDosPais = false
+    
+    
+    if(idade >= 14 || acompanhadoDosPais == true){
+        println("Pode entrar, curte o Péricles ae")
+    }else{
+        println("a entrada não permitida para você")
+    }
+    */
+    //Exercício - A seleção Brasileira está correndo risco de ser eliminada na fase de grupos 
+    //da Copa, o Brasil, só pode se classificar se a Alemanha perder, e se o próprio Brasil
+    // ganhar. As partidas já passaram, quero saber se o Brasil se classificou ou não
+    // 
+    //  detalhe: use os operadores lógicos
+    
+    
+    
+    
+}
