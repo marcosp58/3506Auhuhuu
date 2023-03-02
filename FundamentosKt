@@ -33,6 +33,88 @@ fun main() {
     println("<Rogers> Tudo tem começo, meio e fim. 3 também ")
     println("<Rogers> O dia tem 24 horas, que são possíveis dividir pelos números 3 e 6")
     println("<Rogers> Bom eu acho que isso não é conhecidência, não é ")
+    
+    
+    
+fun main() {
+    
+    // Laços de Repetição
+    // 
+    // while - enquanto
+    // for - para
+    // do..while faça.. enqunato
+    // repeat - repita
+     
+     
+    //laço while
+    // enquanto uma derteminada condição for verdadeira, outra determinada
+    // ação será executada
+    // 
+    // estruturs do while
+    // 
+    // while(condição){
+    // ação
+    // }
+     
+     
+    
+    
+  
+    
+    /*
+    var idade = 1
+     
+    while(idade < 17){
+        println("$idade anos? cresça, sério")
+        idade++
+    }
+        println("Divirta-se,você chegou até aqui,você merece")
+    */    
+        
+    
+    // laço do.. while
+    // 
+    // uma determinada ação será executada, enquanto outra determinada ação for 
+    // verdadeira
+    // 
+    // estruturado do do..while
+    // do{
+    // ação
+    // } while(condição)
+   
+    
+    var idade = 1
+    
+    do{
+        println("$idade anos? cresça, sério")
+        idade++
+    }while(idade < 17)
+   
+    
+    //Exercicio -> o ano Não é bissexto, portanto o ano possui 365 dias, precisa ser exibido no console
+    // os números de 1 a 365, usando no minimo uma variavel,usando os laços while e 
+    //do..while
+    
+    //Divirta-se
+    
+    
+    
+    
+    
+    
+    
+    var Dia = 1
+    
+    do{
+        println("$Dia melhores virão")
+        Dia++
+    }while(Dia < 365) 
+    
+    
+    
+}
+
+    
     println("<???> Ai você tem um ponto, e é um belo ponto")
 	
     //Variáveis - armazenam valores, dados, informações
