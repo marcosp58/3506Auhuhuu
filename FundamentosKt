@@ -385,3 +385,46 @@ fun main() {
     //Divirta-se
 }
     
+    //------------------------------------------------------------------------------------------
+    fun main() {
+    
+    //Laços de repetição
+    //While ♣
+    //Do..While ♠
+    //
+    // for - para... 
+    // 
+    // for - para cada item em uma lista/ ou qualquer tipo de coleção, será executado uma
+    // determinada ação  
+    // 
+    // Estrutura do for: 
+    // for (item in list/collection/intervalo){
+    // ação
+    // } 
+    // 
+    /*
+    var lista = mutableListOf<String>("Messi", "Cristiano", "Neymar")
+    for(item in lista){
+        println(item)
+    }
+    */
+    /*
+    for(item in 0..10){
+        println(item * 8)
+    }
+    */
+    //Exercício: faça a tabuada de um número de sua escolha (sem a do 0, a do 1, do 2 e do 10)
+    //. observação: precisa utilizar o laço for
+    //
+    // Repeat - Repita...
+    //
+    // uma determinada ação será repetida um determinado número de vezes
+    // 
+    var tartaruga = 1
+    repeat(10){
+        println(tartaruga)
+        tartaruga++
+    } 
+    
+    
+}
