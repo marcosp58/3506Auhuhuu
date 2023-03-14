@@ -490,3 +490,61 @@ fun main() {
     
     
 }
+//---------------------------------------------------------------------
+fun main() {
+    //Métodos - listOf
+    /*
+    genericList.add(2, "easy")
+    println(genericList)
+    genericList.remove(23.974)
+    println(genericList) 
+    genericList.removeAt(3)
+    println(genericList)
+    genericList.set(0, "tartaruga")
+    println(genericList)
+    genericList.clear()
+    println(genericList)
+    */
+    //var anotherList = setOf("Pedro", "Diniz", "Pelé", "Ronaldinho", "Marília Mendonza", "Diniz")
+    //println(anotherList) 
+    /*
+    var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "Tucano" to 2, "Hiena" to 3, "Mamaco" to 4)
+    println(animal) 
+    
+    animal.put("capivara incrível ☺", 5)
+    println(animal) 
+    animal.put("leopardo", 9)
+    println(animal) 
+    animal.replace("Hiena","tatu ",3)
+    println(animal)
+    */ 
+    
+    //POO 
+    //
+    // Programação Orientada a Objetos 
+    // 
+    // Objetos - estados (características: nome, idade, cpf)
+    // 
+    // Comportamentos - (andar, comer, dormir, conversar, programar) 
+    // 
+    // Classes - Modelos que servem para construção de objetos derivados 
+    // 
+    val pessoa1 = Pessoa()
+    pessoa1.nome = "Keyla"
+    println(pessoa1.nome)
+    pessoa1.cpf = "445.177.465.78"
+    println(pessoa1.cpf)
+}
+ 
+ class Pessoa(){
+     //declaração de atributos para a classe Pessoa
+     var nome = ""
+     var cpf = ""
+     var idade = 99 
+     var altura = 1.74 
+     
+     
+ }
+// Exercício - Faça uma ficha médica, apontando os resultados do último checkup de um paciente
+// .Permitido usar a mesma classe Pessoa()
+
