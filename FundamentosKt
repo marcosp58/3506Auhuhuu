@@ -547,4 +547,52 @@ fun main() {
  }
 // Exercício - Faça uma ficha médica, apontando os resultados do último checkup de um paciente
 // .Permitido usar a mesma classe Pessoa()
+//--------------------------------------------------------------------- 
+fun main() {
+    
+ // Exercício - Faça uma ficha médica, apontando os resultados do último checkup de um paciente
+// .Permitido usar a mesma classe Pessoa() 
+// <3 - Monitora - Pratiquem esportes crianças (skate é um bom inicio :)! e escutem GORILLAZ!
+//  
+/*
+	var paciente007 = Paciente() 
+    paciente007.nome = "James Bond" 
+    paciente007.idade = 12 
+    paciente007.altura = 1.70 
+    paciente007.alergia = "Manteiga de Amendoim" 
+    paciente007.tipoSanguinio = "O+" 
+    paciente007.medicamento = "dipirona" 
+    paciente007.peso = 70.0 
+    paciente007.dependenteQuimico = true  
+    
+    println("*******Ficha Médica ☺ *******")
+    println("")
+    println("Nome: " + paciente007.nome)
+    println("Idade: "+ paciente007.idade)
+    println("Altura: "+ paciente007.altura)
+    println("Peso: "+paciente007.peso)
+    println("Alergia: "+paciente007.alergia)
+    println("Tipo Sanguíneo: "+paciente007.tipoSanguinio)
+    println("Dependente Químico? "+paciente007.dependenteQuimico)
+    println("Medicamnto: "+paciente007.medicamento)
+    println("")
+    println("***Até o próximo checkup! ♥***")
+    
+    
+    */
+    
+} 
+
+class Paciente(){
+    var nome = ""
+    var idade= 0
+    var altura= 0.0
+    var alergia= "String" 
+    var tipoSanguinio= "String" 
+    var medicamento= "String "
+    var peso= 0.0 
+    var dependenteQuimico= true
+    
+    
+}
 
