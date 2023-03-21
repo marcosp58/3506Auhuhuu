@@ -596,3 +596,26 @@ class Paciente(){
     
 }
 
+///****************************************************************************
+fun main() {
+    
+    var jogador1 = JogadorDeFutebol("Neymar JR", "PSG", 10, "Brasil", "Puma", "Meia-Atacante", 222.0)
+    
+    println(jogador1.nome)  
+    
+    //Exercício - Faça a escalação do seu time exibindo nome, numero da camisa e posição
+    //no mínimo 11 jogadores
+    //permitido inventar jogadores
+    // Monitora- oii, Boa sorte!! :) ♥
+    
+}
+class JogadorDeFutebol(var nome: String,
+                      var time: String,
+                      var numeroDaCamisa: Int,
+                      var nacionalidade: String,
+                      var patrocinio: String,
+                      var posicao: String,
+                      var preco: Double){
+    
+    
+}
