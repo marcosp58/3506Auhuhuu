@@ -744,6 +744,83 @@ class ContaBanco(val num: Long, var saldo: Double, var dono: String){
     
     
     
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////   
+    
+fun main() {
+    
+    //Métodos/funções - são um grupo de ações que representam uma determinada atividade de um
+    //determinado objeto 
+    //
+    // Estrutura de um método no Kotlin 
+    // 
+    // 
+    // 
+    // fun nomeDela (parametros - se tiver){
+    // ações
+    // } 
+    // 
+    // 
+    // var nomeDoObjeto = ClasseDele() 
+    // 
+    // nomeDoObjeto.nomeDela(parâmetros)  
+    // 
+    
+    val contaCorrente = ContaBanco(174253789400012, 5.000, "Rogers") 
+    contaCorrente.consultarDeposito()
+    contaCorrente.deposito(1.800, 2984)
     
     
+}
 
+
+class ContaBanco(val num: Long, var deposito: Double, var dono: String){
+    
+    
+    //Consultar Saldo, Saque e Deposito
+    //
+    // Monitora - Oiiii <3 
+    //
+    fun consultarDeposito(){
+        println("O deposito da sua foi de  R$$1.800")
+    } 
+    
+    fun deposito(deposito: Double, senha: Int){
+        
+        if(senha == 2984){
+            
+                println("deposito de R$$1.800 realizado com sucesso ☺")
+            }else if(deposito >= 1){
+                println("Impossível sacar R$$10.00") 
+          
+        }}}
+
+
+
+
+
+    fun Saldo(){
+        println("O saldo da sua conta é R$$saldo")
+    } 
+    
+    fun saldo(saldo: Double, senha: Int){
+        
+        
+            if(saldo >= ){
+                saldo +=  // vai subtrair o Valor do Saldo
+                println("Saldo e de R$$6.800 ☺")
+            }else if(saldo >= 0){
+                println("Impossível sacar R$$7.000") 
+        
+        }
+        
+        
+    }
+    
+    
+    
+}
+    
+    
+    
+    
+    
